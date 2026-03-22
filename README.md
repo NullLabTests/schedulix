@@ -1,18 +1,22 @@
 # Schedulix
 
-To start your Phoenix server:
+Real-time collaborative scheduling platform built with Elixir + Phoenix LiveView + DaisyUI + Tailwind.
 
-* Run `mix setup` to install and setup dependencies
-* Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+## Features
+- Real-time updates with Phoenix LiveView
+- Secure LiveView authentication
+- Beautiful DaisyUI + Tailwind interface
+- PostgreSQL backend with Ecto
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+## Quick Start
+docker compose up -d
+mix deps.get
+mix ecto.setup
+mix phx.server
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+Open http://localhost:4000
 
-## Learn more
+## Screenshots
+Drop your PNGs into the screenshots/ folder — they will appear here automatically on GitHub.
 
-* Official website: https://www.phoenixframework.org/
-* Guides: https://hexdocs.pm/phoenix/overview.html
-* Docs: https://hexdocs.pm/phoenix
-* Forum: https://elixirforum.com/c/phoenix-forum
-* Source: https://github.com/phoenixframework/phoenix
+MIT © NullLabTests
