@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :schedulix, Schedulix.Repo,
-  username: "postgres",
   password: "postgres",
+  username: "postgres",
   hostname: "localhost",
   database: "schedulix_dev",
   stacktrace: true,
