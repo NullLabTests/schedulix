@@ -7,6 +7,19 @@
 # General application configuration
 import Config
 
+config :schedulix, :scopes,
+  user: [
+    default: true,
+    module: Schedulix.Accounts.Scope,
+    assign_key: :current_scope,
+    access_path: [:user, :id],
+    schema_key: :user_id,
+    schema_type: :id,
+    schema_table: :users,
+    test_data_fixture: Schedulix.AccountsFixtures,
+    test_setup_helper: :register_and_log_in_user
+  ]
+
 config :schedulix,
   ecto_repos: [Schedulix.Repo],
   generators: [timestamp_type: :utc_datetime]
