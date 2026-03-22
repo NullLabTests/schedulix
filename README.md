@@ -1,14 +1,10 @@
-# Schedulix
+Schedulix - Real-time Scheduling Platform
 
-Real-time collaborative scheduling platform built with Elixir + Phoenix LiveView + DaisyUI + Tailwind.
+Real-time collaborative scheduling built with Elixir Phoenix LiveView DaisyUI and Tailwind.
 
-## Features
-- Real-time updates with Phoenix LiveView
-- Secure LiveView authentication
-- Beautiful DaisyUI + Tailwind interface
-- PostgreSQL backend with Ecto
+Features include real-time updates, secure authentication, beautiful modern UI, and PostgreSQL backend.
 
-## Quick Start
+Quick Start:
 docker compose up -d
 mix deps.get
 mix ecto.setup
@@ -16,7 +12,7 @@ mix phx.server
 
 Open http://localhost:4000
 
-## Screenshots
-Drop your PNGs into the screenshots/ folder — they will appear here automatically on GitHub.
+Screenshots:
+Add your images to the screenshots folder - they will display on GitHub.
 
-MIT © NullLabTests
+License: MIT © NullLabTests
